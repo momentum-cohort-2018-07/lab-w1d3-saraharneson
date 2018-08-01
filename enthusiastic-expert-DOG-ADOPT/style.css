@@ -1,0 +1,149 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  max-width: 1080px;
+  font-family: "Open Sans" , sans;
+  margin: 0 auto;
+}
+
+
+.container {
+  padding: 20px 40px;
+  margin: 0 auto;
+  }
+
+.container h2, p {
+  font-size: 16px;
+/*   padding-left: 25px;  */
+}
+
+
+.site-header {
+  position: relative;
+  background-color: #0D3E75;
+  height: 75px;
+  width: 100%;
+  border-bottom: #8FD7EA solid 4px;
+/*   padding: 15px;
+ */
+}
+
+.site-logo {
+  font-family: "Open Sans" , sans;
+  color: #FFFFFF;
+  font-size: 1.5em;
+  padding: 15px 40px;
+  vertical-align: middle;
+/*   position: absolute; */
+}
+
+
+.container h2 {
+  font-family: "Open Sans" , sans;
+  color: #000000;
+}
+
+section.search {
+  background-color: #F0EDEE;
+  width: 80%;
+  padding: 15px;
+  margin: 15px 0; 
+  font-size: 1rem;
+  overflow: auto;
+}
+
+.search__choice {
+  display: inline-block;
+  width: 125px;
+  margin-bottom: 10px;
+  vertical-align: top;
+  }
+
+.search__choice label {
+  display: block;
+  }
+
+.row {
+/*   width: 80%; */
+  float: left;
+
+}
+
+img {
+  width: 250px;
+}
+
+
+.animal {
+  max-width: 30%;
+  height: 325px;
+  margin-right: 10px;
+  overflow: auto;
+  float: left;
+  width: 250px;
+/*   display: inline-block; */
+}
+
+.animal__name {
+  font-family: "Oswald" , sans;
+  font-size: 1.25rem;
+}
+
+
+.animal__trait {
+  font-size: 11px;
+  line-height: 14px;
+  background-color: #8FD7EA;
+  border-radius: 12px;
+  display: inline-block;
+  padding: 0 5px;
+}
+
+
+.footer__block {
+  float: left;
+  width: 33%;
+  height: 250px;
+/*   position: relative; */
+  margin-top: 12px;
+  
+}
+
+
+.footer__block a {
+  text-decoration: none;
+  text-align: center;
+  vertical-align: middle;
+  line-height: 250px;
+/*   position: absolute; */
+  font-family: "Oswald" , sans;
+  font-size: 25px;
+/*   text-align: center; */
+/*   line-height: 5; */
+  color: white; 
+  padding: 85px;
+}
+
+
+.footer__block--donate {
+  background: linear-gradient(rgba(30, 9, 110, 0.5), rgba(30, 9, 110, 0.6)), no-repeat center/cover url(https://cdn.glitch.com/c0fa9c87-4df4-4edd-a0e7-d5bbdc56e570%2Fdonate.jpg?1524172864137);
+}
+
+.footer__block--volunteer {
+  background: linear-gradient(rgba(30, 9, 110, 0.5), rgba(30, 9, 110, 0.6)), no-repeat center/cover url(https://cdn.glitch.com/c0fa9c87-4df4-4edd-a0e7-d5bbdc56e570%2Fvolunteer.jpg?1524172863718);
+}
+
+.footer__block--location {
+  background: linear-gradient(rgba(30, 9, 110, 0.5), rgba(30, 9, 110, 0.6)), no-repeat center/cover url(https://cdn.glitch.com/c0fa9c87-4df4-4edd-a0e7-d5bbdc56e570%2Flocation.png?1524172864805);
+}
+
+
+/* 
+
+.footer__block a:hover {
+     background: linear-gradient(rgba(0, 0, 0, 0), rgba(0, 0, 0, 0)), no-repeat center/cover url(https://cdn.glitch.com/c0fa9c87-4df4-4edd-a0e7-d5bbdc56e570%2Fdonate.jpg?1524172864137);
+} */
