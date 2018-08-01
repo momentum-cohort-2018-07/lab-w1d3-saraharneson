@@ -1,0 +1,92 @@
+body {
+  font-family: 'Nanum Gothic', sans-serif;
+  background-color: #FCF7F8;
+  color: #0A090C;
+  max-width: 800px;
+  /*text-align: center;*/
+  margin: 0 auto;
+}
+
+nav {
+/*   display: inline-block; */
+  text-align: center; 
+  margin: 20px auto;
+  padding: 0 10px;
+  font-weight: bold;
+}
+
+nav a {
+  padding: 0 10px;
+  text-decoration: none;
+  text-transform: uppercase;
+}
+
+nav a:hover {
+  color: #76A5B9;
+}
+
+h1 {
+  font-family: 'Lora', serif;
+  font-size: 2.5rem;
+  text-align: center;
+  margin: 0 auto;
+  color: #009900;
+}
+
+dt {
+  margin-top: 10px;
+  font-size: 1.75rem;
+  font-weight: bold;
+}
+
+dd {
+  margin-bottom: 15px;
+}
+
+.item {
+  float: right;
+  margin-top: 15px;
+}
+
+.title {
+  font-size: 2rem;
+}
+
+.subtitle {
+  font-size: 1.5rem;
+  font-weight: normal;
+  font-style: italic;
+}
+
+.store-image {
+  width: 500px;
+/*   border-width: 1px;
+  border-color: #0A090C;
+  border-style: solid;
+  padding: 10px; */
+  border-radius: 15%;
+  display: block;
+  margin: 20px auto;
+}
+
+.plant-image {
+  height: 200px;
+  margin: 10px 15px;
+  float: left;
+}
+
+.inventory-item {
+  margin: 10px;
+}
+
+#motto {
+  font-family: 'Nanum Gothic', sans-serif;
+  font-weight: bold;
+  color: #009900;
+  text-align: center;
+}
+
+#info-container {
+  text-align: center;
+  margin: 0 auto;
+}
